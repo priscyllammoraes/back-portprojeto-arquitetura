@@ -107,7 +107,7 @@ Isso iniciará tanto a API (`app-api`) quanto a interface web (`app-front`), já
 
 ```bash
 git clone https://github.com/priscyllammoraes/back-portprojeto-arquitetura
-cd backend-portfolio-projeto
+cd back-portprojeto-arquitetura
 ```
 
 ### 2. Instalar bibliotecas
