@@ -106,7 +106,7 @@ Isso iniciará tanto a API (`app-api`) quanto a interface web (`app-front`), já
 ### 1. Clonar o Repositório
 
 ```bash
-git clone https://github.com/priscyllammoraes/backend-portfolio-projeto
+git clone https://github.com/priscyllammoraes/back-portprojeto-arquitetura
 cd backend-portfolio-projeto
 ```
 
