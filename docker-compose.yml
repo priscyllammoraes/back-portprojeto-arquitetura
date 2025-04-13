@@ -1,0 +1,27 @@
+version: '3.9'
+
+services:
+  app-api:
+    build: .
+    container_name: app-api
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./database:/app/database
+    networks:
+      - app-network
+
+  app-front:
+    build:
+      context: ../app-front
+    container_name: app-front
+    ports:
+      - "8080:80"
+    depends_on:
+      - app-api
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
